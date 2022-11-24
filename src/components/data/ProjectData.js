@@ -20,7 +20,7 @@ export const ProjectData = [
     img: pro1,
     title: "Ok-Chef ",
     lurl: "https://ok-chef.netlify.app/",
-    surl: "https://github.com/Elanthentral/indian-recipe",
+    surl: "https://github.com/Elanthentral/ok-chef",
     tech: "HTML , CSS",
   },
 ];

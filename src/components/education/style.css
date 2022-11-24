@@ -1,0 +1,48 @@
+.edu-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  gap: 20px;
+}
+.edu-left {
+  width: 50%;
+}
+.exp-right {
+  width: 50%;
+}
+.edu-detail {
+  margin: 20px 0;
+  border: 1px solid var(--text-light);
+  padding: 20px 30px;
+}
+.year-badge {
+  background-color: var(--primaryColor);
+  padding: 3px 5px;
+  color: white;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.edu-detail h4 {
+  margin-bottom: 5px;
+}
+.edu-detail h6 {
+  margin-bottom: 5px;
+}
+.exp-right p {
+  text-align: justify;
+}
+@media only screen and (max-width: 768px) {
+  .edu-container {
+    flex-direction: column-reverse;
+
+    width: 100%;
+  }
+  .edu-left {
+    width: 100%;
+  }
+  .exp-right {
+    width: 100%;
+  }
+}

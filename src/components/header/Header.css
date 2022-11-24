@@ -1,0 +1,115 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.5rem;
+
+  height: 70px;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 2000;
+}
+.navbar-bg {
+  background-color: white;
+  transition: 3s;
+}
+.navbar__left h1 {
+  font-family: "Raleway", sans-serif;
+  color: var(--text-dark);
+  text-align: center;
+
+  letter-spacing: 1px;
+  font-size: 35px;
+}
+.navbar__left h1 > span {
+  color: var(--primaryColor);
+  font-family: "Raleway", sans-serif;
+}
+.navbar__right {
+  display: flex;
+  align-items: center;
+
+  /* flex: 0.6; */
+}
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.nav-icon {
+  display: none;
+}
+.navmenu-item {
+  padding: 0 2rem;
+}
+.navmenu-item a {
+  font-weight: 600;
+
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--text-dark);
+  transition: all 0.5s ease;
+}
+.navmenu-item a.active {
+  border-bottom: 3px solid var(--primaryColor);
+  font-weight: 700;
+}
+
+.navmenu-item a:hover {
+  border-bottom: 3px solid var(--primaryColor);
+  transition: all 0.3s ease;
+}
+.nav-shrink {
+  background: #132347;
+  box-shadow: 2px 2px 4px -2px #7765ffbd;
+}
+
+@media only screen and (max-width: 1040px) {
+  .navbar {
+    position: fixed;
+  }
+  .navbar-menu {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    padding: 20px 0;
+    top: 80px;
+    left: -100%;
+    z-index: -3;
+    opacity: 1;
+    transition: all 0.5s ease;
+    background-color: var(--primaryColor);
+    color: white;
+  }
+  .navbar-menu.active {
+    left: 0;
+  }
+
+  .nav-icon {
+    display: block;
+    cursor: pointer;
+    color: var(--primary);
+  }
+
+  .navbar-menu.deactive {
+    visibility: hidden;
+  }
+  .navmenu-item {
+    margin: 0px;
+    padding: 20px 0;
+
+    border-bottom: 1px solid #282828;
+  }
+  .navmenu-item a {
+    color: white;
+  }
+  .navbar {
+    padding: 0 20px;
+  }
+  .navbar__left h1 {
+    font-size: 30px;
+  }
+}

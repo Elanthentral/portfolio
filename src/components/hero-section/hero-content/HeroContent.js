@@ -24,7 +24,7 @@ function HeroContent() {
           <p className="hero-desc">{desciption}</p>
           <div className="social-container">
             <a
-              href="www.linkedin.com/in/elan-thentral-532907229"
+              href="https://www.linkedin.com/in/elan-thentral-532907229/"
               target="_blank"
             >
               <AiFillLinkedin size={30} className="textlight" />

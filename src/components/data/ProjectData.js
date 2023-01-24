@@ -1,7 +1,15 @@
-import pro2 from "../../assets/images/pro2.jpg";
+import pro2 from "../../assets/images/pro-4.jpg";
 import pro3 from "../../assets/images/pro-3.jpg";
 import pro1 from "../../assets/images/pro1.jpg";
+import pro4 from "../../assets/images/pro-5.png";
 export const ProjectData = [
+  {
+    img: pro4,
+    title: "Cyber Karma",
+    lurl: "https://cyberkarmaweb.z13.web.core.windows.net/",
+    tech: "React ,html ,css,bootstrap",
+    surl: 0,
+  },
   {
     img: pro2,
     title: "Portfolio ",

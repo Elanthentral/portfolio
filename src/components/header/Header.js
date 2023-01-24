@@ -60,7 +60,7 @@ function Header() {
                   // isDynamic={true}
                 >
                   <a
-                    href={item.url}
+                    href=""
                     className={activeNav === item.url ? "active" : " "}
                     onClick={() => {
                       setActiveNav(item.url);

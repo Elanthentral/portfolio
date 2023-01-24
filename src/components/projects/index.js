@@ -10,12 +10,20 @@ import "./style.css";
 
 function Projects() {
   const [projectShow, setProjectShow] = useState(false);
+  const [pdata, setPdata] = useState([]);
   const handlemouseenter = () => {
     setProjectShow(true);
   };
   const handlemouseleave = () => {
     setProjectShow(false);
   };
+
+  // let sourcecorde;
+  // if (pdata.surl === 0) {
+  //   sourcecorde = "display-none";
+  // } else if (pdata.surl === "") {
+  //   sourcecorde = "display-block";
+  // }
 
   return (
     <div
@@ -37,7 +45,9 @@ function Projects() {
               <div className="porfolio-cards">
                 <div className="portfolio-img">
                   <MediamHeading text={project.title} />
-                  <img src={project.img} className="project-img" />
+                  <div className="img-container">
+                    <img src={project.img} className="project-img" />
+                  </div>
                 </div>
                 <div className="portfolio-content">
                   <h5>{project.title}</h5>
@@ -46,7 +56,13 @@ function Projects() {
                     <a href={project.lurl} target="_blank">
                       Live Demo
                     </a>
-                    <a href={project.surl} target="_blank">
+                    <a
+                      href={project.surl}
+                      target="_blank"
+                      className={
+                        project.surl === 0 ? "display-none" : "display-block"
+                      }
+                    >
                       Source Code
                     </a>
                   </div>

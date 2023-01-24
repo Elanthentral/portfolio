@@ -15,7 +15,10 @@ function Footer() {
       <div className="footer-content">
         <span>ethentral@gmail.com</span>
         <div className="f-icon">
-          <a href="www.linkedin.com/in/elan-thentral-532907229" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/elan-thentral-532907229/"
+            target="_blank"
+          >
             <AiFillLinkedin size={30} className="textlight" />
           </a>
           <a href="https://github.com/Elanthentral" target="_blank">

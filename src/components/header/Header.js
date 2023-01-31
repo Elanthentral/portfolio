@@ -47,7 +47,7 @@ function Header() {
         </div>
         <div className="navbar__right">
           {/* <ul className={toggleIcon ? "navbar-menu active" : "navbar-menu "}> */}
-          <ul className="navbar-menu ">
+          <ul className={toggleIcon ? "navbar-menu active" : "navbar-menu "}>
             {NavData.map((item, i) => (
               <li className="navmenu-item" key={i}>
                 <Link

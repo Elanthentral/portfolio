@@ -2,6 +2,7 @@ import pro2 from "../../assets/images/pro-4.jpg";
 import pro3 from "../../assets/images/pro-3.jpg";
 import pro1 from "../../assets/images/pro1.jpg";
 import pro4 from "../../assets/images/pro-5.png";
+import pro6 from "../../assets/images/pro-6.jpg";
 export const ProjectData = [
   {
     img: pro4,
@@ -9,6 +10,13 @@ export const ProjectData = [
     lurl: "https://cyberkarmaweb.z13.web.core.windows.net/",
     tech: "React ,html ,css,bootstrap",
     surl: 0,
+  },
+  {
+    img: pro6,
+    title: "Portfolio ",
+    lurl: "https://thentral-profile.netlify.app/",
+    surl: "https://github.com/Elanthentral/portfolio",
+    tech: "cutomize Bootstrap 5,React ,html ,css",
   },
   {
     img: pro2,

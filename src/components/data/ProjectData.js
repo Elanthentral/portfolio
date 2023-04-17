@@ -3,7 +3,15 @@ import pro3 from "../../assets/images/pro-3.jpg";
 import pro1 from "../../assets/images/pro1.jpg";
 import pro4 from "../../assets/images/pro-5.png";
 import pro6 from "../../assets/images/pro-6.jpg";
+import pro5 from "../../assets/images/space.png";
 export const ProjectData = [
+  {
+    img: pro5,
+    title: "space-travel ",
+    lurl: "https://space-ride.netlify.app/",
+    surl: "https://github.com/Elanthentral/space-travel",
+    tech: "HTML , CSS,React",
+  },
   {
     img: pro4,
     title: "Cyber Karma",
@@ -15,7 +23,7 @@ export const ProjectData = [
     img: pro6,
     title: "Portfolio ",
     lurl: "https://thentral-profile.netlify.app/",
-    surl: "https://github.com/Elanthentral/portfolio",
+    surl: "https://github.com/Elanthentral/portfolio-horizontal-scroll",
     tech: "cutomize Bootstrap 5,React ,html ,css",
   },
   {

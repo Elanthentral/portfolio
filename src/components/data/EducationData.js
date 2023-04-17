@@ -26,7 +26,7 @@ export const EducationData = [
 export const ExperienceData = [
   {
     companyname: "Shifteasy.AI",
-    year: "2021-Present",
+    year: "Feb 2021  -  Sep 2022",
     designation: "UI Developer",
     desc: "Creative UI Developer with 1+ years spent optimizing user experience through implementing creative processes,innovating, and developing seamless UI. Successful in driving user engagement for well-known brands, providing a compelling user experience to improve brand loyalty, and boosting customer retention..",
   },
